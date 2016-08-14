@@ -16,11 +16,13 @@ When you submit your program, it will need to be accompanied by a set of respons
 
 A. Your program must include elements of abstraction and algorithms. As you collaborate with your partner, fill out the following: 
 
-=====  =====  =====  =====  =====  =====  =====  =====  =====
- Purpose of Program      Abstraction        Algorithm
-——-----------------  -------------------  -------------------
-Code   Explanation   Code   Explanation   Code   Explanation
-=====  =====  =====  =====  =====  =====  =====  =====  =====
+
+.. csv-table:: Template I
+:header: " ", "Purpose of Program", "Abstraction", "Algorithm"
+:widths: 20, 20, 10
+
+"Code", " ", " ", " "
+"Evidence", " ", " ", " "
 
 
 
