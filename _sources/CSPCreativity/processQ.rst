@@ -25,22 +25,12 @@ A. Your program must include elements of abstraction and algorithms. As you coll
 "Evidence", " ", " ", " "
 
 
-
-
-
-=====  =====  =====  =====  =====  =====  =====  =====  ===== 
-
-
 B. Create a project map. Outline the process you used to create your program and the challenges you faced.
 
-=====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====
-               Explanation  What did you contribute?   Did you learn something new?  Problems/Solutions
-——----------  ------------  ------------------------  ----------------------------  -------------------
-**Step 1**
-=====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====
-**Step 2**
-=====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====
-**Step 3**
-=====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====
-**Step 4**
-=====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====  =====
+
+.. csv-table:: Template II
+:header: " ", "Explanation", "Contributions", "What did you learn?", "Problems/Solutions"
+:widths: 20, 20, 10
+
+"Step 1", " ", " ", " ", " "
+"Step 2", " ", " ", " ", " "
