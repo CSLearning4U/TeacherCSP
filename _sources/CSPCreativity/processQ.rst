@@ -16,21 +16,26 @@ When you submit your program, it will need to be accompanied by a set of respons
 
 A. Your program must include elements of abstraction and algorithms. As you collaborate with your partner, fill out the following: 
 
-
-.. csv-table:: Template I
-:header: " ", "Purpose of Program", "Abstraction", "Algorithm"
-:widths: 20, 20, 10
-
-"Code", " ", " ", " "
-"Evidence", " ", " ", " "
++---------+--------------------+-------------+-----------+
+|         | Purpose of Program | Abstraction | Algorithm |
++=========+====================+=============+===========+
+|Code     |                    |             |           |
++=========+--------------------+-------------+-----------+
+|Evidence |                    |             |           |
++=========+--------------------+-------------+-----------+
 
 
 B. Create a project map. Outline the process you used to create your program and the challenges you faced.
 
 
-.. csv-table:: Template II
-:header: " ", "Explanation", "Contributions", "What did you learn?", "Problems/Solutions"
-:widths: 20, 20, 10
-
-"Step 1", " ", " ", " ", " "
-"Step 2", " ", " ", " ", " "
++---------+-------------+---------------+---------------------+--------------------+
+|         | Explanation | Contributions | What did you learn? | Problems/Solutions |
++=========+=============+===============+=====================+====================+
+|Step 1   |             |               |                     |                    |
++=========+-------------+---------------+---------------------+--------------------+
+|Step 2   |             |               |                     |                    |
++=========+-------------+---------------+---------------------+--------------------+
+|Step 3   |             |               |                     |                    |
++=========+-------------+---------------+---------------------+--------------------+
+|Step 4   |             |               |                     |                    |
++=========+-------------+---------------+---------------------+--------------------+
