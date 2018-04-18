@@ -168,7 +168,7 @@ The ``len(string)`` function takes a string as input and returns the number of c
 
 The ``find(string)`` function takes a string as input and returns the index where that string is found in the current string. If the string isn't found it returns -1.
 
-.. activecode:: String_Find
+.. activecode:: String_Find1
    :nocodelens:
    
    sentence = "This is a test"

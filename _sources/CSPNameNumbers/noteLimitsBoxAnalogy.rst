@@ -62,7 +62,7 @@ In this book we use a labelled box as an analogy for variables. However, this an
 
 On the other hand, variables can only contain one value at a time. Take the following sequence of assignment statements:
 
-.. activecode:: Assign1
+.. activecode:: ReUse1
 
     name = "Jane"
     name = "Mary"
@@ -90,7 +90,7 @@ However, if the student misapplied the box analogy, she might say that ``name`` 
 
 Students may take this prior understanding of boxes and misapply them to variables when dealing with assignment. For example, what is printed out after this running this program?
 
-.. activecode:: Assign2
+.. activecode:: ReUse2
 
     name1 = "Jane"
     name2 = name1

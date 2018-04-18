@@ -138,6 +138,9 @@ We can see values (including the values for named variables) by printing them.  
    perPersonCost = total / numPeople
    =====
    print(perPersonCost)
+   =====
+   print(perpersoncost) #paired
+   
 
 
 

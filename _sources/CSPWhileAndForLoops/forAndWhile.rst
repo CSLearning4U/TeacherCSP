@@ -58,7 +58,7 @@ Before you step through the code in for_counter below, try to predict the last v
 	   	  
 If we want to print out a count that starts at 1 and increases by 1 each time, we can do easily do that with a ``for`` loop.  Use the *Forward* button to see how counter takes on a new value each time through the loop.
 
-.. codelens:: for_counter
+.. codelens:: for_counter2
 
 	for counter in range(1,10):
 	    print(counter)

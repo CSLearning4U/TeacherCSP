@@ -89,7 +89,7 @@ Strings start with single quotes or double quotes.  As you have seen before you 
     
 Run the code below to see what type of error you get if you use a different starting character than ending character in a string.  Then try to fix the 2 errors in the code and run the code again.  You should get the same results as in CodeLens 1 (String_Manip) above.
 
-.. activecode:: intro_data_string_error
+.. activecode:: intro_data_string_error1
     
     name = "Mark'
     start = 'My name is "

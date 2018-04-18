@@ -68,25 +68,24 @@ One reason may be because assignment requires the programmer to be *consistent* 
 **How do students get assignment wrong?**   Here are three ways.  One is that they see assignment as being a *move* of the value (rather than a *copy*).  So, they think that after ``var1 = var2`` the variable ``var1`` has the value from ``var2`` and the variable ``var2`` has a value of nothing or zero.
 
 **Click on the right arrow below to play the following video.**
-   
-.. video:: assignment_zero
-   :controls:
-   :thumb: ../_static/video-misconception-zeroing.png
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-zeroed-small.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-zeroed-small.webm  
+.. the video is assignment-zeroed-small.mov
+
+.. youtube:: 6fmKTHBVItQ
+    :width: 640
+    :height: 480
+    :align: center
 
 A second model, which may be more common, is that they see assignment as a *relationship*.   Once ``var1 = var2`` then any change to ``var2`` will automatically change ``var1``.  The problem here is that the student doesn't see the assignment as an *action*.  If a student doesn't see the assignment as an action, it's hard to understand why the *ordering* of statements is important.
 
-.. video:: assignment_relationship
-   :controls:
-   :thumb: ../_static/video-misconception-relationship.png
+.. the video is assignment-relationship-small.mov
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-relationship-small.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/assignment-relationship-small.webm 
-   
+.. youtube:: mnuDaA4VRPM
+    :width: 640
+    :height: 480
+    :align: center
+
 A third problem is that some students have *assignment dyslexia*, which means that instead of writing the assignment with the variable name on the left side of the ``=`` and the value on the right, they reverse it as shown below.    
-
 
 :: 
 

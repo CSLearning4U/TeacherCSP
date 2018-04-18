@@ -87,7 +87,7 @@ The function ``len`` will return the number of items in the list.  You can do "a
     
 Run the code below to see what type of error you get if you forget the ending ``]`` as shown below on line 1.  Also see what happens if you don't separate the list items with commas as shown on line 2. Fix the code to run and print.
 
-.. activecode:: intro_data_string_error
+.. activecode:: intro_data_list_error1
 
     start = [3
     start = start + ["What"3]

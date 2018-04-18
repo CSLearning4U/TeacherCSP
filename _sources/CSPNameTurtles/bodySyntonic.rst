@@ -28,10 +28,10 @@ One of the things that `Seymour Papert <http://en.wikipedia.org/wiki/Seymour_Pap
 
 **Click on the right arrow below to play the following video.**
 
-.. video:: body_syntonic_turtle
-   :controls:
-   :thumb: ../_static/body-syntonic-turtle.png
+.. the video is body-syntonic-turtle.mp4
 
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/body-syntonic-turtle.mov
-   http://ice-web.cc.gatech.edu/ce21/1/static/video/body-syntonic-turtle.webm
+.. youtube:: 6RVkvIG3Sk0
+    :width: 640
+    :height: 480
+    :align: center
 

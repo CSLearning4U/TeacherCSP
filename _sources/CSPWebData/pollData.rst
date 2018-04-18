@@ -41,7 +41,7 @@ Here are just the first 9 lines of the data.
 
 If you want to see **all** of the data click on the *Show* button below.  Once it appears, you can hide it again by clicking on the *Hide* button.
 
-.. reveal:: pol_Data1
+.. reveal:: pol_Data1st
     :showtitle: Show
     :hidetitle: Hide
     

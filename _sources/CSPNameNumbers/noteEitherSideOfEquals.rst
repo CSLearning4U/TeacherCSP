@@ -64,7 +64,7 @@ Notice that we can use a variable name on either side of the equal sign, ``=`` (
 
 For instance, consider this series of assignment statements:
 
-.. activecode:: Assign1
+.. activecode:: AssignResult1
    
     a = 5
     b = a + 1
@@ -89,7 +89,7 @@ Incrementing a variable
 
 It’s important to understand the above steps to make sense of the following example. This is a common operation in which the value of a variable is *incremented* (it’s value is increased by 1):
 
-.. activecode:: Assign2
+.. activecode:: AssignResult2
 
     a = 5
     a = a + 1

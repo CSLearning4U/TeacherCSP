@@ -36,7 +36,7 @@ Creating parts of strings
 
 As we have seen before the ``find(string)`` function takes a target string as input and returns the index where that target string is found in the current string. If the string isn't found it returns -1.
 
-.. activecode:: String_Find
+.. activecode:: String_Find2
    :nocodelens:
    
    sentence = "This is a test"
@@ -101,7 +101,7 @@ You can use the ``find`` function along with the slice feature to get part of a 
 
 Say that you are looking for a name in a string but don't know the exact position of the name in the string.  However you do know that it will be after ``name:``.  
 
-.. activecode:: String_Slice1
+.. activecode:: String_Slice3
    :nocodelens:
    
    namePart = "name: Anu Gao"

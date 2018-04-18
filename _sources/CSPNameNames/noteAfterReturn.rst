@@ -26,7 +26,7 @@ Another common misconception students have about functions is that the entire bo
 
 The following program illustrates this misconception. Before running the below example, answer this question: how many times is “4” printed?
 
-.. activecode:: FunDef1
+.. activecode:: FunDefDouble
 
     def double(x):
         result = x * 2
