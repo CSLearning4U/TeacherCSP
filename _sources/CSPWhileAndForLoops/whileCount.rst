@@ -96,6 +96,8 @@ The following code is an attempt to show another way to print the values from 1 
    counter = counter + 1
    	
 .. parsonsprob:: 8_3_3_While_Countdown
+   :numbered: left
+   :adaptive:
 
    The following is the correct code for printing a countdown from 10 to 0, but it is mixed up. Drag the blocks from the left and put them in the correct order on the right.  Don't forget to indent blocks in the body of the loop.  Just drag the block to the further right to indent.  Click the <i>Check Me</i> button to check your solution.</p>
    -----
@@ -109,6 +111,7 @@ The following code is an attempt to show another way to print the values from 1 
 	single: definite loop
 	
 .. parsonsprob:: 8_2_4_While_Count_Even
+   :numbered: left
    :adaptive:
 
    The following is the correct code for printing the even numbers from 0 to 10, <b>but it also includes some extra code that you won't need</b>. Drag the needed blocks from the left and put them in the correct order on the right.  Don't forget to indent blocks in the body of the loop.  Just drag the block to the further right to indent.  Click the <i>Check Me</i> button to check your solution.</p>

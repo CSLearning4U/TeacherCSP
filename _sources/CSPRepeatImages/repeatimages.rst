@@ -111,6 +111,8 @@ You can actually run this code on any image on the web by specifying the image u
    The problem below has blocks connected by purple edges.  Pick just one of the blocks to use in the solution.  One is the correct block and one is a *distractor* which is not needed in a correct solution.
    
 .. parsonsprob:: Image_Set_Red_255
+   :numbered: left
+   :adaptive:
 
    The program below should set all the red values to 255 (the maximum value).  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
    -----
@@ -140,6 +142,7 @@ You can actually run this code on any image on the web by specifying the image u
    The problem below has a *Help Me* button, but it starts out disabled.  You must make at least 3 attempts to solve this problem before the button becomes enabled.  You can click on the *Help Me* button when it is enabled to make the problem easier.  
 
 .. parsonsprob:: Image_Set_Red_100
+   :numbered: left
    :adaptive:
 
    The program below should set all the red values to 100.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.

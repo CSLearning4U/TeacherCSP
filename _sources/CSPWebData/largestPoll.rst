@@ -509,6 +509,8 @@ One of the interesting questions to explore is, "Which city has the worst pollut
    Which of the following is true about the cities with the maximum PM 2.5 and PM 10 values? 
    
 .. parsonsprob:: 18_4_1_maxPM25
+   :numbered: left
+   :adaptive:
 
    The following program prints the maximum PM 2.5 pollution found, but the code is mixed up.  Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention.
    -----

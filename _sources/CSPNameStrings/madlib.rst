@@ -139,6 +139,8 @@ You might have done MadLib stories when you were a kid.  You provide some pieces
    When you print a string (a sequence of characters in a pair of single, double, or triple quotes) in Python it will print the exact characters in the string.  When you print a variable it will print the value of that variable.
      
 .. parsonsprob:: 4_4_4_Poem
+   :numbered: left
+   :adaptive:
 
    Put the blocks below into the correct order to print a twist on a famous poem.   
    -----
@@ -151,6 +153,8 @@ You might have done MadLib stories when you were a kid.  You provide some pieces
    print("And so is Sue.")
      
 .. parsonsprob:: 4_4_5_Story
+   :numbered: left
+   :adaptive:
 
    Put the blocks below into the correct order to declare the variables and then print the following story. One day Jay went shopping.  He wanted to buy shoes.  But, he didn't like any.  So, Jay went home. 
    -----
