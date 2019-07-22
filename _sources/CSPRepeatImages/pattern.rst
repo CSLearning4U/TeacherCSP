@@ -80,6 +80,7 @@ Here are our six steps:
    The problem below has a *Help Me* button, but it starts out disabled.  You must make at least 3 attempts to solve this problem before the button becomes enabled.  You can click on the *Help Me* button when it is enabled to make the problem easier.  
 
 .. parsonsprob:: Image_Set_Red_Half_Blue
+   :numbered: left
    :adaptive:
 
    The program below should set all the red values to half the blue values.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
@@ -106,6 +107,8 @@ Here are our six steps:
    img.draw(win)
    
 .. parsonsprob:: Image_Set_Green_Half_Red
+   :numbered: left
+   :adaptive:
 
    The program below should set all the green values to half the red values.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
    -----

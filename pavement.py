@@ -8,35 +8,60 @@ from os import environ
 
 from sphinxcontrib import paverutils
 
+# new 7/2019 changes
+import pkg_resources
+from runestone import get_master_url
+
 sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-master_url = 'https://runestone.academy'
+project_name = "teachercsp"
+
+#master_url = 'https://runestone.academy'
+#if master_url is None:
+#    if 'RSHOST' in os.environ:
+#        master_url = environ['RSHOST']
+#    elif gethostname() in  ['web608.webfaction.com']:
+#        master_url = 'http://interactivepython.org'
+#    elif gethostname() == 'runestone-deploy':
+#        master_url = 'https://runestone.academy'
+#    else:
+#        master_url = 'http://127.0.0.1:8000'
+
+# new 7/2019 changes
+master_url = None
+
 if master_url is None:
-    if 'RSHOST' in os.environ:
-        master_url = environ['RSHOST']
-    elif gethostname() in  ['web608.webfaction.com']:
-        master_url = 'http://interactivepython.org'
-    elif gethostname() == 'runestone-deploy':
-        master_url = 'https://runestone.academy'
-    else:
-        master_url = 'http://127.0.0.1:8000'
+    master_url = get_master_url()
 
 master_app = 'runestone'
-serving_dir = "./build/TeacherCSP"
-dest = '../../static'
+serving_dir = "./build/teachercsp"
+
+#new 7/2019 changes
+# Change to False when running localhost 
+dynamic_pages = True
+
+if dynamic_pages:
+    dest = './published'
+else:
+    dest = '../../static'
+
+
+#master_app = 'runestone'
+#serving_dir = "./build/TeacherCSP"
+#dest = '../../static'
 
 options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/TeacherCSP",
+        builddir="./build/teachercsp",
         sourcedir="_sources",
-        outdir="./build/TeacherCSP",
+        outdir="./build/teachercsp",
         confdir=".",
-        project_name = "TeacherCSP",
-        template_args={'course_id': 'TeacherCSP',
+        project_name = project_name,
+        template_args={'course_id': project_name,
                        'login_required':'true',
                        'appname':master_app,
                        'loglevel': 10,
@@ -44,7 +69,12 @@ options(
                        'use_services': 'true',
                        'python3': 'true',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'teachercsp'
+                       'basecourse': 'teachercsp',
+                       # new 7/2019 changes
+                       'dynamic_pages': dynamic_pages,
+                       'downloads_enabled': 'false',
+                       'enable_chatcodes': 'false',
+                       'allow_pairs': 'false'
                         }
     )
 )

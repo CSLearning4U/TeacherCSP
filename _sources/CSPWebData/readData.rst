@@ -457,6 +457,8 @@ The code below will print out the pollution information for all the cities that 
    inFile.close()
    
 .. parsonsprob:: 18_3_1_printInfoForCity
+   :numbered: left
+   :adaptive:
 
    The following program prints the pollution information for all cities that start with a ``D``, but the code is mixed up.  Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention.
    -----

@@ -107,6 +107,8 @@ Try the program above on some of the other images by changing the name of the im
    The problem below has blocks connected by purple edges.  Pick just one of the blocks to use in the solution.  One is the correct block and one is a *distractor* which is not needed in a correct solution.
 
 .. parsonsprob:: Image_Decrease_GB
+   :numbered: left
+   :adaptive:
 
    Another way to get a similar effect to increasing the red, is to decrease the green and blue by 25%.  Figure out how to do that in the program above and then use that information to drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
    -----
@@ -141,6 +143,7 @@ Try the program above on some of the other images by changing the name of the im
    The problem below has a *Help Me* button, but it starts out disabled.  You must make at least 3 attempts to solve this problem before the button becomes enabled.  You can click on the *Help Me* button when it is enabled to make the problem easier.  
    
 .. parsonsprob:: Image_Increase_Red_Parsons
+   :numbered: left
    :adaptive:
 
    The program below should increase the red by 25%.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
